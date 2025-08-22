@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-between; /*faz com que os itens fiquem alinhados */  
+    background-image: url(https://i.ytimg.com/vi/owpvrjxrsls/maxresdefault.jpg); /*imagem de fundo */
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    border: solid 3px;
+    display: inline-block;
+}
+#tarefa{
+    margin: 30px;
+    padding: 10px;
+    gap: 15px;
+    border: solid 3px;
+}
+#seleciona-data{
+    margin: 30px;
+    padding: 10px;
+    border: solid 3px;
+}
+button{
+ border-radius: 15px;
+ margin: 30px;
+ color: red;
+ background-color: blue;
+ border: solid 3px;
+ padding: 10px;
+}
+
+#lista-de-tarefas div{
+    margin: 10px 0 0 0;
+    padding: 4px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#lista-de-tarefas{
+    gap: 15px; /* espaço entre as linhas */
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+
+
